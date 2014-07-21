@@ -3222,7 +3222,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Sell Turtles"",life_fnc_sellTurtle];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Turtle Trader"",life_fnc_virt_menu,""turtle""];";
 				};
 				class Item94
 				{
@@ -3389,7 +3389,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Sell Turtles"",life_fnc_sellTurtle];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Turtle Trader"",life_fnc_virt_menu,""turtle""];";
 				};
 				class Item109
 				{
@@ -3400,7 +3400,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Sell Turtles"",life_fnc_sellTurtle];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Turtle Trader"",life_fnc_virt_menu,""turtle""];";
 				};
 			};
 		};
