@@ -125,6 +125,25 @@ class Life_Client_Core
 		class gatherGrapes {};
 	};
 	
+	class Market
+	{
+		file = "core\market";
+		
+		class openMarketView;
+		class refreshMarketView;
+		class marketShortView;
+		class marketBuy;
+		class marketSell;
+		class marketGetBuyPrice;
+		class marketGetSellPrice;
+		class marketconfiguration;
+		class marketReset;
+		class marketChange;
+		class marketGetRow;
+		class marketGetPriceRow;
+		class marketSetPriceRow;
+	};
+	
 	class Housing
 	{
 		file = "core\housing";
@@ -235,6 +254,7 @@ class Life_Client_Core
 		class inventoryClosed {};
 		class inventoryOpened {};
 		class isUIDActive {};
+		class randomRound {}; //market
 		//casino
 		class slotMachineRewards {};
 		class casinoSounds {};
