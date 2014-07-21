@@ -125,7 +125,7 @@ class Life_Client_Core
 		class gatherGrapes {};
 	};
 	
-	class Market
+    class Market
 	{
 		file = "core\market";
 		
