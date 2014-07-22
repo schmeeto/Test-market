@@ -19,7 +19,8 @@ closeDialog 0;
 
 _houseCfg = [(typeOf _house)] call life_fnc_houseConfig;
 if(count _houseCfg == 0) exitWith {};
-if(life_atmcash < (_houseCfg select 0)) exitWith {hint "You do not have enough money!"};
+if(life_atmcash < (_houseCfg select 0)) exitWith {hint format["You do not have enough money! House Price is %1",[(_houseCfg select 0)] call life_fnc_numberText]};
+
 
 _action = [
 	format["This house is available for <t color='#8cff9b'>$%1</t><br/>It supports up to %2 storage containers",
