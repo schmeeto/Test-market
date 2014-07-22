@@ -23,6 +23,17 @@ life_market_resources = [
 		] 
 	],
 	
+	["wine", 1000, 0, 2000, 3, 1, 
+		[ 
+			["diamondc",1], 
+			["iron_r",1],
+			["copper_r",1],
+			["salt_r",1],
+			["cement",1],
+			["glass",1] 
+		] 
+	],
+	
 	["iron_r", 1100, 0, 1650, 3, 1,  
 		[ 
 			["diamondc",1], 
