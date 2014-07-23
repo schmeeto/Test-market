@@ -7,10 +7,10 @@ waitUntil { time > 0 };
 IL_EV_Count = 0;
 IL_Veh_Array = [];
 
-cutText ["Enterharken Lizenz lädt. Bitte warten...","PLAIN",2];
+cutText ["IgiLoad is loading...","PLAIN",2];
 sleep (random 30);
 
-cutText [Format ["Enterharken init Player: %1", Player],"PLAIN",2];
+cutText [Format ["IgiLoad Init Player: %1", Player],"PLAIN",2];
 
 _null = [Player] execVM "IgiLoad\IgiLoad.sqf";
 waitUntil {scriptDone _null};
