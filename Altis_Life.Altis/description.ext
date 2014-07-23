@@ -31,6 +31,7 @@ class RscTitles
 	#include "dialog\ui.hpp"
 	#include "dialog\progress.hpp"
 	#include "dialog\slotmachine.hpp"
+	#include "dialog\statusBar.hpp"
 };
 
 class CfgFunctions
