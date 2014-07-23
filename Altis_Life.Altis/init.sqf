@@ -40,3 +40,6 @@ StartProgress = true;
 
 //welcome
 [] execVM "custom\Welcome.sqf";
+
+// Walk
+[] execVM "DCL\init.sqf";
