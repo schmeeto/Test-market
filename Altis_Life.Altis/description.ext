@@ -7,7 +7,7 @@ respawndelay = 5;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
-LoadScreen = "textures\LogoAltis.png";
+LoadScreen = "textures\LogoAltis";
 respawnDialog = 0;
 
 class Header
