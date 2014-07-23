@@ -46,3 +46,12 @@ StartProgress = true;
 
 //IgiLoad
 _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
+
+//Dynamic Weather
+[] execVM "scripts\DynWeather.sqf";
+
+//No Side Voice
+[] execVM "scripts\fn_noSideVoice.sqf";
+
+//Stats Bar
+[] execVM "scripts\fn_statusBar.sqf";
