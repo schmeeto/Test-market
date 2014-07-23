@@ -43,3 +43,6 @@ StartProgress = true;
 
 // Walk
 [] execVM "DCL\init.sqf";
+
+//IgiLoad
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
