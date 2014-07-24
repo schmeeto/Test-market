@@ -30563,7 +30563,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=215;
+		items=267;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -32181,7 +32181,7 @@ class Mission
 			colorName="ColorRed";
 			angle=-358.09299;
 		};
-		class Item212
+		class Item206
 		{
 			position[]={18383.779,27.092974,15248.242};
 			name="gang_area_3";
@@ -32190,7 +32190,7 @@ class Mission
 			colorName="ColorRed";
 			angle=2.7999959;
 		};
-		class Item213
+		class Item207
 		{
 			position[]={3307.8906,12.716581,14142.727};
 			name="turle_dealer_1";
@@ -32199,7 +32199,7 @@ class Mission
 			colorName="ColorRed";
 			angle=77.713181;
 		};
-		class Item214
+		class Item208
 		{
 			position[]={16556.398,1.8017138,15550.469};
 			name="turle_dealer_2";
