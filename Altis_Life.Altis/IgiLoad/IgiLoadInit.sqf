@@ -26,7 +26,7 @@ sleep (random (IL_Check_Veh_Max - IL_Check_Veh_Min));
 	};
 } forEach (vehicles);
 
-cutText ["Enterharken loaded. Have fun :)","PLAIN",2];
+cutText ["Igiload has loaded. Have fun :)","PLAIN",2];
 
 while {true} do 
 {
