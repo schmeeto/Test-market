@@ -32,6 +32,7 @@ class RscTitles
 	#include "dialog\progress.hpp"
 	#include "dialog\slotmachine.hpp"
 	#include "dialog\statusBar.hpp"
+	#include "dialog\hud_nameTags.h"
 };
 
 class CfgFunctions
