@@ -57,9 +57,9 @@ while {true} do
 	_progressBar progressSetPosition _cP;
 	_titleText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_title];
 	_hideout setVariable["inCapture",true,true];
-    if(_cP >= 1 OR !alive player) exitWith {_hideout setVariable["inCapture",false,true];};
-    if(life_istazed) exitWith {_hideout setVariable["inCapture",false,true];}; //Tazed
-    if(life_interrupted) exitWith {_hideout setVariable["inCapture",false,true];};
+	if(_cP >= 1 OR !alive player) exitWith {_hideout setVariable["inCapture",false,true];};
+	if(life_istazed) exitWith {_hideout setVariable["inCapture",false,true];}; //Tazed
+	if(life_interrupted) exitWith {_hideout setVariable["inCapture",false,true];};
 };
 
 //Kill the UI display and check for various states
